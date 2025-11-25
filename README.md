@@ -32,6 +32,27 @@ ZeroTrust Activation (ZTA) is a novel generic and robust activation function for
 - 📊 **Publication-ready Figures:** Automation for all paper plots.
 - 🧪 **Reproducibility:** All hyperparameters, ablations, and statistical significance scripts provided.
 
+git clone https://github.com/yourusername/zerotrust-activation.git
+cd zerotrust-activation
+pip install -r requirements.txt
+
+
+Requirements:
+- Python 3.8+
+- PyTorch >= 1.9
+- torchvision
+- torchattacks (for adversarial evaluation)
+- matplotlib, seaborn, scikit-learn, tqdm
+
+---
+
+## Usage
+
+### 1. Use ZTA in Your Model
+
+from zta import ZeroTrustActivation
+layer = ZeroTrustActivation(alpha_init=1.0, beta_init=1.0)
+
 ---
 
 ## Installation
