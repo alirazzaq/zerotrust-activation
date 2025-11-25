@@ -32,9 +32,9 @@ ZeroTrust Activation (ZTA) is a novel generic and robust activation function for
 - 📊 **Publication-ready Figures:** Automation for all paper plots.
 - 🧪 **Reproducibility:** All hyperparameters, ablations, and statistical significance scripts provided.
 
-git clone https://github.com/yourusername/zerotrust-activation.git
+```git clone https://github.com/yourusername/zerotrust-activation.git
 cd zerotrust-activation
-pip install -r requirements.txt
+pip install -r requirements.txt```
 
 
 Requirements:
